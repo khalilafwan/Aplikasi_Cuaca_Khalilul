@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Aplikasi Prediksi Cuaca</title>
+	<!--
+
+    Template 2106 Soft Landing
+
+	http://www.tooplate.com/view/2106-soft-landing
+
+    -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <!-- ICON -->
+     <link rel="icon" href="/img/iconcuaca.png">
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="/css/bootstrap.min.css">
+     <link rel="stylesheet" href="/css/owl.carousel.css">
+     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="/css/tooplate-style.css">
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+     <!-- HEADER -->
+     {{>header}}
+     
+     <!-- HOME -->
+     <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h1>Aplikasi Prediksi Cuaca</h1>
+                              <h3>Be weather-wise with our app!</h3>
+                              <form action="" method="get" class="online-form">
+                                   <input type="text" name="address" class="form-control" placeholder="Enter Location" required="">
+                                   <button type="submit" class="form-control">Search</button>
+                              </form>
+                              <h2 id="pesan-1"></h2>
+                              <h2 id="pesan-2"></h2>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- ABOUT ME -->
+     <section id="aboutme" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h1>Khalilul Afwan</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <ul class="nav nav-tabs" role="tablist">
+                              <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Data Diri</a></li>
+
+                              <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Hobi</a></li>
+
+                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Riwayat Pendidikan</a></li>
+                         </ul>
+
+                         <div class="tab-content">
+                              <div class="tab-pane active" id="tab01" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2>Profil</h2>
+                                        <p>Nama saya adalah Khalilul Afwan, saya lahir di Tangerang 5 Agustus 2003. Sejak lahir saya tinggal di Tangerang kemudian memutuskan untuk menempuh pendidikan S1 di Padang, Sumatera Barat.</p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>Deskripsi</h2>
+                                        <p>Mahasiswa semester 5 Teknik Informatika Universitas Negeri Padang. Mampu mengoperasikan Microsoft Office, Visual Studio Code, danBuku Catatan Jupyter. Saya berpengalaman dalam penggunaan Bahasa Pemrograman seperti Python, Java, Bahasa C dan sangat tertarik Analisis Data, Rekayasa Perangkat Lunak, dan Pengembang Front-End. Bergairah untuk bekerja dalam tim dan mempelajari hal-hal baru yang akan meningkatkan kemampuan saya keterampilan memecahkan masalah dan berkontribusi pada perusahaan.</p>
+                                   </div>
+                              </div>
+
+
+                              <div class="tab-pane" id="tab02" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2>Bermain Game</h2>
+                                        <p>Saya hobi bermain game komputer, terlebih game bergenre Tembak-Menembak (<i>First-Person Shooter</i>). Hobi ini sudah saya lakukan sejak saya TK.</p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>Bermain Musik</h2>
+                                        <p>Saya senang memainkan beberapa alat musik, yaitu: Gitar, Piano, dan Bass. Hobi ini mulai saya lakukan saat saya menempuh pendidikan SMA.</p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>Melakukan Browsing</h2>
+                                        <p>Saya juga suka melakukan <i>browsing</i> di Internet mencari informasi-informasi unik, sejarah, bahkan teknologi. Hobi ini saya lakukan sejak saya memiliki akses Wi-Fi pribadi di rumah.</p>
+                                   </div>
+                              </div>
+
+                              <div class="tab-pane" id="tab03" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2>SMPIT Asy-Syukriyyah (2015-2018)</h2>
+                                        <p>Saya menempuh pendidikan Sekolah Menengah Pertama Saya di Sekolah Islam Terpadu Asy-Syukriyyah. Sekolah ini terletak di Banjar Wijaya, Kota Tangerang.</p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>SMAN 7 Tangerang (2018-2021)</h2>
+                                        <p>Saya menempuh pendidikan Sekolah Menengah Atas Saya di SMAN 7 Tangerang. Sekolah ini terletak di Kawasan Pendidikan Cikokol, Kota Tangerang.</p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>Universitas Negeri Padang (2021-)</h2>
+                                        <p>Saat ini saya sedang menempuh pendidikan Sarjana (S1) di Universitas Negeri Padang. Jurusan yang saya ambil yaitu Teknik Informatika (NK).</p>
+                                   </div>
+                              </div>
+                         </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="aboutme-image">
+                              <img src="/img/me.jpg" class="img-responsive" alt="My Photo">                             
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- API -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="section-title">
+                              <h1>Deskripsi API</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <img src="/img/mbox.png" class="img-responsive" alt="mapbox">
+                              <div class="team-info team-thumb-up">
+                                   <h2>Mapbox</h2>
+                                   <small>Lokasi</small>
+                                   <p>Mapbox menyediakan alat pemetaan dan lokasi untuk integrasi dalam aplikasi, mendukung peta interaktif dan navigasi.</p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <div class="team-info team-thumb-down">
+                                   <h2>WeatherStack</h2>
+                                   <small>Cuaca</small>
+                                   <p>Weatherstack menyediakan data cuaca terkini dan perkiraan jangka pendek dan panjang serta informasi cuaca terkait.</p>
+                              </div>
+                              <img src="/img/weatherstack.jpg" class="img-responsive" alt="weatherstack">
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <img src="/img/mstack1.jpg" class="img-responsive" alt="mediastack">
+                              <div class="team-info team-thumb-up">
+                                   <h2>Mediastack</h2>
+                                   <small>Berita</small>
+                                   <p>Mediastack adalah layanan API yang menyediakan akses data berita dan konten media untuk aplikasi.</p>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FAQ -->
+     <section id="testimonial" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="testimonial-image1"></div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="testimonial-info">
+                              
+                              
+
+                              <div class="owl-carousel owl-theme">
+                                   <div class="item">
+                                        <div class="section-title">
+                                             <h1>Halaman ini digunakan untuk apa?</h1>
+                                        </div>
+                                        <h3>Halaman ini digunakan untuk menjawab sejumlah pertanyaan terkait dengan soal UTS yang diberikan.</h3>
+                                        <div class="testimonial-item">
+                                             {{!-- <img src="/img/tst-image1.jpg" class="img-responsive" alt="Michael"> --}}
+                                             {{!-- <h4>Michael</h4> --}}
+                                        </div>
+                                   </div>
+
+                                   <div class="item">
+                                        <div class="section-title">
+                                             <h1>Apa itu API?</h1>
+                                        </div>
+                                        <h3>API adalah singkatan dari "Application Programming Interface" yang merupakan cara perangkat lunak berinteraksi dan berkomunikasi dengan perangkat lunak lainnya untuk menjalankan fungsi atau mendapatkan data.</h3>
+                                        <div class="testimonial-item">
+                                             {{!-- <img src="/img/tst-image2.jpg" class="img-responsive" alt="Sofia"> --}}
+                                             {{!-- <h4>Sofia</h4> --}}
+                                        </div>
+                                   </div>
+
+                                   <div class="item">
+                                        <div class="section-title">
+                                             <h1>API apa yang digunakan dalam aplikasi ini?</h1>
+                                        </div>
+                                        <h3>API yang digunakan dalam aplikasi ini ada tiga, yaitu <b>Mapbox</b>, <b>WeatherStack</b>, dan <b>Mediastack</b>. API Mapbox dan WeatherStack dikombinasikan menjadi satu untuk memberikan informasi tentang prediksi cuaca, sedangkan Mediastack berfungsi untuk menammpilkan sejumlah berita.</h3>
+                                        <div class="testimonial-item">
+                                             {{!-- <img src="/img/tst-image3.jpg" class="img-responsive" alt="Monica"> --}}
+                                             {{!-- <h4>Monica</h4> --}}
+                                        </div>
+                                   </div>
+
+                                   <div class="item">
+                                        <div class="section-title">
+                                             <h1>Salah satu pola arsitektur API adalah GraphQL</h1>
+                                        </div>
+                                        <h3>Ini adalah pengaturan di mana server GraphQL terhubung langsung dengan basis data dalam satu node. Klien mengirimkan kueri ke server melalui HTTP, yang kemudian mengeksekusi kueri dengan mengambil data dari basis data dan mengirimkan respons dalam format GraphQL kepada klien.</h3>
+                                        <div class="testimonial-item">
+                                             {{!-- <img src="/img/tst-image3.jpg" class="img-responsive" alt="Monica"> --}}
+                                             {{!-- <h4>Monica</h4> --}}
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     {{!-- <!-- NEWS -->
+     <section id="pricing" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h1>Latest News</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                             <div class="pricing-title">
+                                  <h2>{{title}}</h2>
+                             </div>
+                             <div class="pricing-info">
+                                   <p>{{description}}</p>
+                                   <a href="{{url}}" target="_blank">Baca Selengkapnya</a>
+                             </div>
+                             <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$200/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                             <div class="pricing-title">
+                                  <h2>Business</h2>
+                             </div>
+                             <div class="pricing-info">
+                                   <p>50 Responsive Designs</p>
+                                   <p>30 Dashboards</p>
+                                   <p>2 TB Storage</p>
+                                   <p>12 TB Bandwidth</p>
+                                   <p>15-minute Support</p>
+                             </div>
+                             <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$350/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                             <div class="pricing-title">
+                                  <h2>Professional</h2>
+                             </div>
+                             <div class="pricing-info">
+                                   <p>100 Responsive Designs</p>
+                                   <p>60 Dashboards</p>
+                                   <p>5 TB Storage</p>
+                                   <p>25 TB Bandwidth</p>
+                                   <p>1-minute Support</p>
+                             </div>
+                             <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$550/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                             <div class="pricing-title">
+                                  <h2>Student</h2>
+                             </div>
+                             <div class="pricing-info">
+                                   <p>20 Responsive Designs</p>
+                                   <p>10 Dashboards</p>
+                                   <p>1 TB Storage</p>
+                                   <p>6 TB Bandwidth</p>
+                                   <p>24-hour Support</p>
+                             </div>
+                             <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$200/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                             <div class="pricing-title">
+                                  <h2>Business</h2>
+                             </div>
+                             <div class="pricing-info">
+                                   <p>50 Responsive Designs</p>
+                                   <p>30 Dashboards</p>
+                                   <p>2 TB Storage</p>
+                                   <p>12 TB Bandwidth</p>
+                                   <p>15-minute Support</p>
+                             </div>
+                             <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$350/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                             <div class="pricing-title">
+                                  <h2>Professional</h2>
+                             </div>
+                             <div class="pricing-info">
+                                   <p>100 Responsive Designs</p>
+                                   <p>60 Dashboards</p>
+                                   <p>5 TB Storage</p>
+                                   <p>25 TB Bandwidth</p>
+                                   <p>1-minute Support</p>
+                             </div>
+                             <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$550/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                             </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>    --}}
+
+
+     {{!-- <!-- CONTACT -->
+     <section id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                         <form id="contact-form" role="form" action="" method="post">
+                              <div class="section-title">
+                                   <h1>Say hello to us</h1>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="text" class="form-control" placeholder="Full name" name="name" required="">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="email" class="form-control" placeholder="Email address" name="email" required="">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="submit" class="form-control" name="send message" value="Send Message">
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="8" placeholder="Your message" name="message" required=""></textarea>
+                              </div>
+                         </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>        --}}
+
+
+     <!-- FOOTER -->
+     {{>footer}}
+
+
+     <!-- SCRIPTS -->
+     <script src="/js/jquery.js"></script>
+     <script src="/js/bootstrap.min.js"></script>
+     <script src="/js/jquery.stellar.min.js"></script>
+     <script src="/js/owl.carousel.min.js"></script>
+     <script src="/js/smoothscroll.js"></script>
+     <script src="/js/custom.js"></script>
+     <script src="/js/app.js"></script>
+</body>
+</html>

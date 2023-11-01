@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>Berita</title>
+    <link rel="icon" href="/img/iconcuaca.png">
+    <link rel="stylesheet" href="/web-server/public/css/style.css">
+    <!-- CSS -->
+     <link rel="stylesheet" href="/css/bootstrap.min.css">
+     <link rel="stylesheet" href="/css/owl.carousel.css">
+     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="/css/tooplate-style.css">
+
+     <!-- berita -->
+     <style>
+      .berita-list { 
+        display: grid; 
+        grid-template-columns: 
+        repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 20px; 
+        } 
+      .berita-item { 
+        background-color: #fff;
+        border: 1px solid #e0e0e0; 
+        border-radius: 10px; 
+        padding: 20px; 
+        box-shadow:0 4px 8px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.2s; 
+        }
+      .berita-item:hover { 
+        transform: scale(1.02); 
+        } 
+      .berita-item h3 {
+        font-size: 1.5rem; 
+        margin: 0; 
+        color: #333; 
+        } 
+      .berita-item p { 
+        font-size: 1rem; 
+        color: #666; 
+        } 
+      .berita-item a { 
+        text-decoration: none; 
+        color:#007BFF; 
+        font-weight: bold; 
+        display: inline-block; 
+        margin-top: 10px; 
+        }
+      .berita-item a:hover { 
+        text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    {{>header}}
+    <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="home-info">
+                          <h1>NEWS</h1>
+                              <div class="berita-list">
+                                {{#each berita}}
+                                <div class="berita-item">
+                                    <h2>{{title}}</h3>
+                                    <p>{{description}}</p>
+                                    <a href="{{url}}" target="_blank">Baca selengkapnya</a>
+                                    <img
+                                        src="{{image}}"
+                                        alt=""
+                                        srcset=""
+                                        style="width: 400px; height: 400px;"/>
+                                </div>
+                            {{/each}}
+                            </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+    {{>footer}}
+</body>
+</html>
